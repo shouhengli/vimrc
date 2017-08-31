@@ -29,6 +29,8 @@ Plugin 'Valloric/YouCompleteMe'
 
 Plugin 'prettier/vim-prettier'
 
+Plugin 'pangloss/vim-javascript'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -77,4 +79,11 @@ let g:prettier#config#print_width = 80
 let g:prettier#config#trailing_comma = 'none'
 
 " print spaces between brackets
-let g:prettier#config#bracket_spacing = 'true'
+let g:prettier#config#bracket_spacing = 'true' 
+
+colorscheme industry
+
+set foldmethod=syntax
+set nofoldenable
+set foldnestmax=10
+set foldlevel=10
