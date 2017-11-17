@@ -16,7 +16,7 @@ git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
 ```
 mkdir ~/.vim/swap
 ```
-6. Install NodeJS
+5. Install NodeJS
 ```
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -28,7 +28,7 @@ sudo apt-get install python-dev python3-dev && \
 cd ~/.vim/bundle/YouCompleteMe && \
 ./install.py --js-completer
 ```
-5. Install vim-sensible (optional)
+7. Install vim-sensible (optional)
 ```
 git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 ```
