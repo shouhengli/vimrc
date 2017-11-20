@@ -28,7 +28,11 @@ sudo apt-get install python-dev python3-dev && \
 cd ~/.vim/bundle/YouCompleteMe && \
 ./install.py --js-completer
 ```
-7. Install vim-sensible (optional)
+7. Install Prettier
+```
+sudo npm install --global prettier
+```
+8. Install vim-sensible (optional)
 ```
 git clone git://github.com/tpope/vim-sensible.git ~/.vim/bundle/vim-sensible
 ```
