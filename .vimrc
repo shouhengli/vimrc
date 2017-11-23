@@ -87,3 +87,4 @@ set foldmethod=syntax
 set nofoldenable
 set foldnestmax=10
 set foldlevel=10
+set mouse=a
